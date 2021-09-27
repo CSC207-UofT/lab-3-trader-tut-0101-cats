@@ -1,36 +1,18 @@
-import org.junit.Before;
-import org.junit.Test;
+/*
+ * This file contains sample JUnit test cases for Horse.java
+ * You should NOT modify this file!
+ */
 
-import static org.junit.Assert.assertEquals;
+import org.junit.*;
+
+import static org.junit.Assert.*;
+
 
 public class CatTest {
-    Cat c;
+    Cat h;
 
     @Before
     public void setUp() throws Exception {
-        c = new Cat();
-    }
-
-    @Test(timeout = 50)
-    public void TestSound() {
-        assertEquals("Nya", c.sound());
-    }
-
-
-    @Test(timeout = 50)
-    public void TestUpgradeSpeed() {
-        c.upgradeSpeed();
-        assertEquals(2, c.getMaxSpeed());
-    }
-
-    @Test(timeout = 50)
-    public void TestDowngradeSpeed() {
-        c.downgradeSpeed();
-        assertEquals(0, c.getMaxSpeed());
-    }
-
-    @Test(timeout = 50)
-    public void TestGetPrice() {
-        assertEquals(5, c.getPrice());
+        h = new Cat();
     }
 }
