@@ -2,8 +2,7 @@ public class Cat implements Tradable, Domesticatable, Drivable {
     private int maxSpeed;
 
     /**
-     * A Freaking Tradable, Domesticatable Drivable Cat. Oh dear, what have I
-     * done :D :D :D?
+     * A cat
      *
      */
     public Cat() {
@@ -11,8 +10,8 @@ public class Cat implements Tradable, Domesticatable, Drivable {
     }
 
     /**
-     * Returns the sound the cat makes. What does the Fox say?
-     * @return The sound the cat makes
+     * Returns the sound the cat makes.
+     * @return The sound of the cat
      */
     @Override
     public String sound() {
@@ -20,7 +19,7 @@ public class Cat implements Tradable, Domesticatable, Drivable {
     }
 
     /**
-     * Makes this cat Usain Bolt
+     * Upgrade the speed of the cat
      */
     @Override
     public void upgradeSpeed() {
@@ -28,7 +27,7 @@ public class Cat implements Tradable, Domesticatable, Drivable {
     }
 
     /**
-     * Make this cat old and slow.
+     * Downgrade the max speed of the cat
      */
     @Override
     public void downgradeSpeed() {
@@ -36,9 +35,9 @@ public class Cat implements Tradable, Domesticatable, Drivable {
     }
 
     /**
-     * What is the maximum speed of this thing?
+     * Get the max speed of the cat
      *
-     * @return The speed of the wild beast
+     * @return The max speed of the cat
      */
     @Override
     public int getMaxSpeed() {
@@ -46,7 +45,7 @@ public class Cat implements Tradable, Domesticatable, Drivable {
     }
 
     /**
-     * Wait? We are selling this?
+     * Get the price of the cat
      * @return The Price of the cat.
      */
     @Override
