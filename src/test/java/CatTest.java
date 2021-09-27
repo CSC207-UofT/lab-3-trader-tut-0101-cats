@@ -15,7 +15,12 @@ public class CatTest {
     public void TestSound() {
         assertEquals("Nya", c.sound());
     }
-
+    
+    @Test(timeout = 50)
+    public void TestGetMaxSpeed() {
+        assertEquals(1, h.getMaxSpeed());
+    }
+     
 
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
