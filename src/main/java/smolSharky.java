@@ -1,4 +1,4 @@
-/* A sample class that implements the given interfaces.
+/* A cute smol sharky that can be domesticated, watch out, it's expensives
  */
 public class smolSharky implements Domesticatable, Tradable {
     private int maxSpeed;

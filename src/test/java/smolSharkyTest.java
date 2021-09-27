@@ -26,4 +26,9 @@ public class smolSharkyTest {
     public void TestGetPrice() {
         assertEquals(9001, sharky.getPrice());
     }
+
+    @Test(timeout = 50)
+    public void TestPrint() {
+        assertEquals(" (Max speed: 9)", System.out.println(sharky.toString));
+    }
 }
