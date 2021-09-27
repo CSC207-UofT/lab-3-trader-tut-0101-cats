@@ -1,6 +1,6 @@
-public class Car implements Tradable{
+public class Car implements Tradable, Drivable{
     private String type;
-    private int maxSpeed
+    private int maxSpeed;
     public Car() {
         this.type = " ";
         this.maxSpeed = 100;

@@ -13,24 +13,24 @@ public class CarTest {
 
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(100, h.getMaxSpeed());
+        assertEquals(100, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
-        h.upgradeSpeed();
-        assertEquals(102, h.getMaxSpeed());
+        c.upgradeSpeed();
+        assertEquals(102, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
-        h.downgradeSpeed();
-        assertEquals(99, h.getMaxSpeed());
+        c.downgradeSpeed();
+        assertEquals(99, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(20, h.getPrice());
+        assertEquals(20, c.getPrice());
     }
 
 }
