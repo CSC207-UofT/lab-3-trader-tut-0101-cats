@@ -26,5 +26,4 @@ public class smolSharkyTest {
     public void TestGetPrice() {
         assertEquals(9001, sharky.getPrice());
     }
-
 }
