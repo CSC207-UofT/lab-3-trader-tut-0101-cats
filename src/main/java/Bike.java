@@ -5,7 +5,7 @@ public class Bike implements Drivable, Tradable{
     /**
      * A bike that is tradable and drivable.
      */
-    public Bike() { this.maxSpeed = 5 }
+    public Bike() { this.maxSpeed = 5; }
 
     /**
      * Speed up bike.
@@ -29,8 +29,10 @@ public class Bike implements Drivable, Tradable{
 
     /**
      * Get price of Bike.
+     *
+     * @return price of Bike
      */
     @Override
     public int getPrice() { return 15; }
-    }
 }
+
