@@ -1,3 +1,4 @@
+
 public class Cat implements Tradable, Domesticatable, Drivable{
 
     @Override
@@ -24,4 +25,3 @@ public class Cat implements Tradable, Domesticatable, Drivable{
         }
         }
     }
-
