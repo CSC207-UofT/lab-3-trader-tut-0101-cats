@@ -1,9 +1,10 @@
+
 public class Cat implements Tradable, Domesticatable, Drivable{
 
     @Override
     public int getPrice() {
         return 5;
-
+    }
     @Override
     public String sound() {
         return "Nya";
@@ -24,4 +25,3 @@ public class Cat implements Tradable, Domesticatable, Drivable{
         }
         }
     }
-
