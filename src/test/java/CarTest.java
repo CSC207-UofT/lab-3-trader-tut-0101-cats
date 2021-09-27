@@ -19,7 +19,7 @@ public class CarTest {
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
         c.upgradeSpeed();
-        assertEquals(102, c.getMaxSpeed());
+        assertEquals(101, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
