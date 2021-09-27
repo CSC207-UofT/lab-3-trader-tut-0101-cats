@@ -15,9 +15,4 @@ public class CatTest {
     public void setUp() throws Exception {
         h = new Cat();
     }
-
-    @Test(timeout = 50)
-    public void TestSound() {
-        assertEquals("roar...", h.sound());
-    }
 }
